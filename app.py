@@ -1,3 +1,4 @@
+
 from flask import Flask, request
 import git
 
@@ -5,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, Flask app is running!"
+    return "Hello, Flask app is running! auto deploy test!!"
 
 
 @app.route("/update_server", methods=["POST"])
